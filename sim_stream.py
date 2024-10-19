@@ -124,8 +124,7 @@ attack_values=[4,6,8,10,12,16,20]
 st.title("Shot Simulator")
 N_Shields=st.number_input("Enter number of defender’s shields",value=0,min_value=0, step=1)       
 S_Shields=st.number_input("Enter strength of defender’s shields",value=0,min_value=0, step=1)  
-Defense=st.number_input("Enter strength of defender’s defense value",value=0,min_value=0, step=1)  
-st.title("Shot Simulator")
+Defense=st.number_input("Enter defender’s defense value",value=0,min_value=0, step=1)  
 # Create a dropdown
 selected_shooters = st.selectbox("Number of Shooters:", [1,2,3,4,5,6,7,8,9,10])        
 n_shooters = selected_shooters        
